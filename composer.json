@@ -1,6 +1,5 @@
 {
   "name": "sonarsoftware/customer_portal_framework",
-  "version": "1.0.58",
   "type": "library",
   "description": "A framework to build a customer portal for Sonar.",
   "keywords": ["sonar","sonar software","sonar api","sonar software api","sonar customer portal"],
@@ -28,7 +27,8 @@
     "php" : "^5.5 || ^7.0",
     "vlucas/phpdotenv": "^2.2",
     "guzzlehttp/guzzle": "^6.2",
-    "inacho/php-credit-card-validator": "^1.0"
+    "inacho/php-credit-card-validator": "^1.0",
+    "nesbot/carbon": "^1.21"
   },
   "autoload": {
     "psr-4" : {
