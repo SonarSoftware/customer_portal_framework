@@ -25,10 +25,10 @@
   },
   "require": {
     "php" : "^5.5 || ^7.0",
-    "vlucas/phpdotenv": "^2.2",
-    "guzzlehttp/guzzle": "^6.2",
+    "vlucas/phpdotenv": "*",
+    "guzzlehttp/guzzle": "6.*",
     "inacho/php-credit-card-validator": "^1.0",
-    "nesbot/carbon": "^1.21"
+    "nesbot/carbon": "1.*"
   },
   "autoload": {
     "psr-4" : {
