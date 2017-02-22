@@ -33,6 +33,7 @@
   "autoload": {
     "psr-4" : {
       "SonarSoftware\\CustomerPortalFramework\\" : "src"
-    }
+    },
+    "files": ["Helpers/functions.php"]
   }
 }
