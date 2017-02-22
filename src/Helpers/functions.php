@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * Get a valid list of country codes
+ * @return array
+ */
 function countries()
 {
     return array
@@ -250,4 +254,31 @@ function countries()
         'ZM' => 'Zambia',
         'ZW' => 'Zimbabwe',
     );
+}
+
+/**
+ * Get a list of valid subdivisions for a country
+ * @param $country
+ * @return mixed
+ */
+function subdivisions($country)
+{
+    $subdivisions = json_decode(file_get_contents("../resources/subdivisions.json"),true);
+    if (!isset($subdivisions[$country]))
+    {
+        throw new InvalidArgumentException($country . " is not a valid country code.");
+    }
+
+    if (in_array($country,"US","CA"))
+    {
+        return $subdivisions[$country];
+    }
+
+    $cleaned = [];
+    foreach ($subdivisions[$country] as $subdivision)
+    {
+        $cleaned[$subdivision] = $subdivision;
+    }
+
+    return $cleaned;
 }
