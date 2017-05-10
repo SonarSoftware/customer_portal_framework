@@ -85,7 +85,7 @@ class Ticket
         {
             throw new InvalidArgumentException($value . " must be true or false.");
         }
-        $this->open = (bool)$value;
+        $this->open = $value;
     }
 
     /**
