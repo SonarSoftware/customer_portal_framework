@@ -121,6 +121,11 @@ class AccountTicketController
      */
     public function postReply(Ticket $ticket, $replyText, $author, $authorEmail)
     {
+        if ($ticket->getOpen() !== true)
+        {
+            throw new InvalidArgumentException("Ticket is not open.");
+        }
+
         if (filter_var($authorEmail, FILTER_VALIDATE_EMAIL) === false)
         {
             throw new InvalidArgumentException($authorEmail . " is not a valid email address.");
