@@ -18,7 +18,8 @@ class HttpHelper
     public function __construct()
     {
         $this->guzzle = new Client();
-        $dotenv = new Dotenv(__DIR__ . '/../');
+        //This is to maintain backwards compatibility with the old file location.
+        $dotenv = file_exists(__DIR__ . '/../../../../../.env') ? new Dotenv(__DIR__ . '/../../../../../') : new Dotenv(__DIR__ . '/../');
         $dotenv->load();
         $dotenv->required([
             'API_USERNAME',
