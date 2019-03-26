@@ -34,6 +34,6 @@
     "psr-4" : {
       "SonarSoftware\\CustomerPortalFramework\\" : "src"
     },
-    "files": ["Helpers/functions.php"]
+    "files": ["src/Helpers/functions.php"]
   }
 }
