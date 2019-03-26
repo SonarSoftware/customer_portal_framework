@@ -263,13 +263,13 @@ function countries()
  */
 function subdivisions($country)
 {
-    $subdivisions = json_decode(file_get_contents("../resources/subdivisions.json"),true);
+    $subdivisions = json_decode(file_get_contents(__DIR__ . "/../resources/subdivisions.json"),true);
     if (!isset($subdivisions[$country]))
     {
         throw new InvalidArgumentException($country . " is not a valid country code.");
     }
 
-    if (in_array($country,"US","CA"))
+    if (in_array($country, ["US","CA"]))
     {
         return $subdivisions[$country];
     }
