@@ -19,7 +19,15 @@ class HttpHelper
     {
         $this->guzzle = new Client();
         //This is to maintain backwards compatibility with the old file location.
-        $dotenv = file_exists(__DIR__ . '/../../../../../.env') ? new Dotenv(__DIR__ . '/../../../../../') : new Dotenv(__DIR__ . '/../');
+        if (file_exists(__DIR__ . '/../../../../../.env')) {
+            $dotenv = new Dotenv(__DIR__ . '/../../../../../');
+        } else if (file_exists(__DIR__ . '/../.env')) {
+            $dotenv = new Dotenv(__DIR__ . '/../');
+        } else {
+            //Just skip loading if no .env is present.
+            return;
+        }
+
         $dotenv->load();
         $dotenv->required([
             'API_USERNAME',
