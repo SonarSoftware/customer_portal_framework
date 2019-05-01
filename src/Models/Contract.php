@@ -15,7 +15,7 @@ class Contract
      */
     public function __construct(array $values)
     {
-        $dotenv = new Dotenv(__DIR__ . '/../');
+        $dotenv = file_exists(__DIR__ . '/../../../../../.env') ? new Dotenv(__DIR__ . '/../../../../../') : new Dotenv(__DIR__ . '/../');
         $dotenv->load();
         $dotenv->required([
             'SONAR_URL',
