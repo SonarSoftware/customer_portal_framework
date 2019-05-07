@@ -15,12 +15,23 @@ class Contract
      */
     public function __construct(array $values)
     {
-        $dotenv = file_exists(__DIR__ . '/../../../../../.env') ? new Dotenv(__DIR__ . '/../../../../../') : new Dotenv(__DIR__ . '/../');
+        if (file_exists(__DIR__ . '/../../../../../.env')) {
+            $dotenv = new Dotenv(__DIR__ . '/../../../../../');
+            $this->loadDotEnv($dotenv);
+        } else if (file_exists(__DIR__ . '/../.env')) {
+            $dotenv = new Dotenv(__DIR__ . '/../');
+            $this->loadDotEnv($dotenv);
+        }
+
+        $this->storeInput($values);
+    }
+
+    private function loadDotEnv(Dotenv $dotenv)
+    {
         $dotenv->load();
         $dotenv->required([
             'SONAR_URL',
         ])->notEmpty();
-        $this->storeInput($values);
     }
 
     private $id = null;
