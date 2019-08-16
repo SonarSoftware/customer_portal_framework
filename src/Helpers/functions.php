@@ -184,7 +184,6 @@ function countries()
         'PN' => 'Pitcairn',
         'PL' => 'Poland',
         'PT' => 'Portugal',
-        'PR' => 'Puerto Rico',
         'QA' => 'Qatar',
         'RE' => 'Reunion',
         'RO' => 'Romania',
