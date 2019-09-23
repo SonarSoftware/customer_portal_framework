@@ -47,7 +47,7 @@ class HttpHelper
         try {
             $response = $this->guzzle->post($this->cleanEndpoint($endpoint), [
                 'headers' => [
-                    'Content-Type' => 'application/json',
+                    'Content-Type' => 'application/json; charset=utf-8',
                     'timeout' => 10,
                 ],
                 'auth' => [
@@ -120,7 +120,7 @@ class HttpHelper
         try {
             $response = $this->guzzle->patch($this->cleanEndpoint($endpoint), [
                 'headers' => [
-                    'Content-Type' => 'application/json',
+                    'Content-Type' => 'application/json; charset=utf-8',
                     'timeout' => 10,
                 ],
                 'auth' => [
@@ -156,7 +156,7 @@ class HttpHelper
         try {
             $response = $this->guzzle->delete($this->cleanEndpoint($endpoint), [
                 'headers' => [
-                    'Content-Type' => 'application/json',
+                    'Content-Type' => 'application/json; charset=utf-8',
                     'timeout' => 10,
                 ],
                 'auth' => [
