@@ -48,7 +48,7 @@ class HttpHelper
             $response = $this->guzzle->post($this->cleanEndpoint($endpoint), [
                 'headers' => [
                     'Content-Type' => 'application/json; charset=utf-8',
-                    'timeout' => 10,
+                    'timeout' => 20,
                 ],
                 'auth' => [
                     getenv("API_USERNAME"),
@@ -85,7 +85,7 @@ class HttpHelper
         try {
             $response = $this->guzzle->get($this->cleanEndpoint($endpoint) . "?page=$page", [
                 'headers' => [
-                    'timeout' => 10,
+                    'timeout' => 20,
                 ],
                 'auth' => [
                     getenv("API_USERNAME"),
@@ -121,7 +121,7 @@ class HttpHelper
             $response = $this->guzzle->patch($this->cleanEndpoint($endpoint), [
                 'headers' => [
                     'Content-Type' => 'application/json; charset=utf-8',
-                    'timeout' => 10,
+                    'timeout' => 20,
                 ],
                 'auth' => [
                     getenv("API_USERNAME"),
@@ -157,7 +157,7 @@ class HttpHelper
             $response = $this->guzzle->delete($this->cleanEndpoint($endpoint), [
                 'headers' => [
                     'Content-Type' => 'application/json; charset=utf-8',
-                    'timeout' => 10,
+                    'timeout' => 20,
                 ],
                 'auth' => [
                     getenv("API_USERNAME"),
