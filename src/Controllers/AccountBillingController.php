@@ -252,9 +252,11 @@ class AccountBillingController
      * @param $accountID
      * @param BankAccount $bankAccount
      * @param bool $auto
+     * @param array $address
      * @return mixed
+     * @throws ApiException
      */
-    public function createBankAccount($accountID, BankAccount $bankAccount, $auto = true)
+    public function createBankAccount($accountID, BankAccount $bankAccount, $auto = true, $address = [])
     {
         return $this->httpHelper->post("/accounts/" . intval($accountID) . "/payment_methods", [
             'type' => 'bank account',
@@ -263,6 +265,11 @@ class AccountBillingController
             'name_on_account' => $bankAccount->getName(),
             'account_type' => $bankAccount->getType(),
             'auto' => (bool)$auto,
+            'line1' => isset($address['line1']) ? $address['line1'] : null,
+            'city' => isset($address['city']) ? $address['city'] : null,
+            'state' => isset($address['state']) ? $address['state'] : null,
+            'zip' => isset($address['zip']) ? $address['zip'] : null,
+            'country' => isset($address['country']) ? $address['country'] : null,
         ]);
     }
 
