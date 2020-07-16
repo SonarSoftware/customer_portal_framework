@@ -112,10 +112,12 @@ class Contact
         $formattedArray = [];
         foreach ($this->phoneNumbers as $key => $phoneNumber)
         {
-            $formattedArray[$key] = [
-                'number' => $phoneNumber->getNumber(),
-                'extension' => null
-            ];
+            if($phoneNumber->getNumber() != null) {
+                $formattedArray[$key] = [
+                    'number' => $phoneNumber->getNumber(),
+                    'extension' => null
+                ];
+            }
         }
 
         return $formattedArray;
