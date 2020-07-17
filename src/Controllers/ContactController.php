@@ -72,7 +72,6 @@ class ContactController
     {
         return $this->httpHelper->patch("accounts/" . $contact->getAccountID() . "/contacts/" . $contact->getContactID(), [
             'name' => $contact->getName(),
-            'role' => $contact->getRole(),
             'email_address' => $contact->getEmailAddress(),
             'phone_numbers' => $contact->getPhoneNumbersFormatted(),
         ]);
