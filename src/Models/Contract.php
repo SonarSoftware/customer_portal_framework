@@ -214,7 +214,30 @@ class Contract
 
     public function generateSignatureLink()
     {
-        return getenv('SONAR_URL') . "/contract_signing/" . $this->uniqueLinkKey;
+
+	$versionIp = getenv('SONAR_IP');
+
+	if (isset($versionIp))
+        {
+            // this only works if the installer sets the environment variable (new install)
+	    if $versionIp === "52.185.67.212"
+            {
+	        return getenv('SONAR_URL') . "/contract/" . $this->uniqueLinkKey;
+	    } else {
+                return getenv('SONAR_URL') . "/contract_signing/" . $this->uniqueLinkKey;
+            }
+	} else {
+
+            // upgrade script doesn't re-run installer, so this will patch existing portals
+            // where SONAR_IP isn't set
+	    $versionIp = shell_exec('dig ' . getenv('SONAR_URL') . ' a +short | grep -E -o "([0-9]{1,3}[\.]){3}[0-9]{1,3}"');
+
+	    if $versionIp === "52.185.67.212"
+            {
+	        return getenv('SONAR_URL') . "/contract/" . $this->uniqueLinkKey;
+	    } else {
+		return getenv('SONAR_URL') . "/contract_signing/" . $this->uniqueLinkKey;
+            }
     }
 
     /**
