@@ -214,7 +214,9 @@ class Contract
 
     public function generateSignatureLink()
     {
-        return getenv('SONAR_URL') . "/contract_signing/" . $this->uniqueLinkKey;
+        $headers = get_headers(getenv('SONAR_URL'),true);
+        $contracts_path = (is_array($headers['Set-Cookie'])) ? "contract" : "contract_signing";
+        return getenv('SONAR_URL') . "/$contracts_path/" . $this->uniqueLinkKey;
     }
 
     /**
