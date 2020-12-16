@@ -7,6 +7,7 @@ use SonarSoftware\CustomerPortalFramework\Exceptions\ApiException;
 use SonarSoftware\CustomerPortalFramework\Helpers\HttpHelper;
 use SonarSoftware\CustomerPortalFramework\Models\BankAccount;
 use SonarSoftware\CustomerPortalFramework\Models\CreditCard;
+use SonarSoftware\CustomerPortalFramework\Models\TokenizedCreditCard;
 
 class AccountBillingController
 {
@@ -244,6 +245,34 @@ class AccountBillingController
             'country' => $creditCard->getCountry(),
             'cvc' => $creditCard->getCvc(),
             'auto' => (bool)$auto,
+        ]);
+    }
+
+    /**
+     * Add a new tokenized credit card to a customer account
+     *
+     * @param $accountID
+     * @param TokenizedCreditCard $creditCard
+     * @param bool $auto - Whether or not the card is set for auto pay
+     * @return mixed
+     * @throws ApiException
+     */
+    public function createTokenizedCreditCard($accountID, TokenizedCreditCard $creditCard, $auto = true)
+    {
+        return $this->httpHelper->post("/accounts/" . intval($accountID) . "/tokenized_payment_method", [
+            'payment_processor_customer_profile_id' => $creditCard->getCustomerId(),
+            'token' => $creditCard->getToken(),
+            'type' => 'credit card',
+            'identifier' => $creditCard->getIdentifier(),
+            'expiration_month' => $creditCard->getExpirationMonth(),
+            'expiration_year' => $creditCard->getExpirationYear(),
+            'auto' => (bool)$auto,
+            'line1' => $creditCard->getLine1(),
+            'city' => $creditCard->getCity(),
+            'state' => $creditCard->getState(),
+            'zip' => $creditCard->getZip(),
+            'country' => $creditCard->getCountry(),
+            'name_on_account' => $creditCard->getName(),
         ]);
     }
 
