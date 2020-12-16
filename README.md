@@ -5,7 +5,7 @@ A framework to build a Sonar integrated customer portal. This library requires S
 This is a PHP library to assist you with building a custom customer portal. This library abstracts a lot of the Sonar API calls and adds convenient shortcuts to many common features required in a customer portal.
 
 ## Installing
-The recommended installation method is using [Composer](https://www.getcomposer.org). You can install by running `composer require sonarsoftware/customer_portal_framework`.
+The recommended installation method is using [Composer](https://www.getcomposer.org). You can install by running `composer require sonarsoftwareinc/customer_portal_framework`.
 
 ## Configuration
 Copy the `.env.example` file from inside the `src` directory to a new file called `.env`. Edit this file and set your Sonar installation URL, API username, and API password. The only permissions required for this library to function are account create, read, update, and delete, and ticket create, read, and update. It is strongly recommended that you create a dedicated account solely for the customer portal - *do not use your admin account!*
