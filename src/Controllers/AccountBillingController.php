@@ -7,6 +7,7 @@ use SonarSoftware\CustomerPortalFramework\Exceptions\ApiException;
 use SonarSoftware\CustomerPortalFramework\Helpers\HttpHelper;
 use SonarSoftware\CustomerPortalFramework\Models\BankAccount;
 use SonarSoftware\CustomerPortalFramework\Models\CreditCard;
+use SonarSoftware\CustomerPortalFramework\Models\TokenizedCreditCard;
 
 class AccountBillingController
 {
@@ -205,6 +206,57 @@ class AccountBillingController
     }
 
     /**
+     * Make a one time payment with a tokenized card and, optionally, save it as
+     * a future automatic payment method. This should not be used to pay with
+     * an existing payment method.
+     * @param $accountID - The account ID in Sonar
+     * @param TokenizedCreditCard $creditCard - A TokenizedCreditCard object
+     * @param $amount - The amount in the currency used in Sonar as a float
+     * @param bool $saveAndMakeAuto - If this is true, save the card if it successfully runs
+     * @return mixed
+     * @throws ApiException
+     */
+    public function makeTokenizedCreditCardPayment(
+        $accountID,
+        TokenizedCreditCard $creditCard,
+        $amount,
+        $saveAndMakeAuto = false
+    )
+    {
+        $result = $this->httpHelper->post(
+            "/accounts/" . intval($accountID) . "/transactions/one_time_tokenized_credit_card_payment",
+            [
+                'customer_profile_id' => $creditCard->getCustomerId(),
+                'credit_card_type' => strtoupper($creditCard->getCardType()),
+                'name_on_card' => $creditCard->getName(),
+                'token' => $creditCard->getToken(),
+                'expiration_month' => $creditCard->getExpirationMonth(),
+                'expiration_year' => $creditCard->getExpirationYear(),
+                'masked_number' => $creditCard->getIdentifier(),
+                'line1' => $creditCard->getLine1(),
+                'city' => $creditCard->getCity(),
+                'state' => $creditCard->getState(),
+                'zip' => $creditCard->getZip(),
+                'country' => $creditCard->getCountry(),
+                'amount' => trim($amount),
+            ]
+        );
+
+        if ($result->success === true && $saveAndMakeAuto === true)
+        {
+            try {
+                $this->createTokenizedCreditCard($accountID, $creditCard);
+            }
+            catch (Exception $e)
+            {
+                // Not much we can do here, the payment has already been run.
+                // Very unlikely payment will work and saving will fail.
+            }
+        }
+
+        return $result;
+    }
+    /**
      * Make a payment using an existing payment method ID (see https://sonar.software/apidoc/index.html#api-Account_Transactions-PostAccountPayment)
      * @param $accountID
      * @param $paymentMethodID
@@ -244,6 +296,35 @@ class AccountBillingController
             'country' => $creditCard->getCountry(),
             'cvc' => $creditCard->getCvc(),
             'auto' => (bool)$auto,
+        ]);
+    }
+
+    /**
+     * Add a new tokenized credit card to a customer account
+     *
+     * @param $accountID
+     * @param TokenizedCreditCard $creditCard
+     * @param bool $auto - Whether or not the card is set for auto pay
+     * @return mixed
+     * @throws ApiException
+     */
+    public function createTokenizedCreditCard($accountID, TokenizedCreditCard $creditCard, $auto = true)
+    {
+        return $this->httpHelper->post("/accounts/" . intval($accountID) . "/tokenized_payment_method", [
+            'payment_processor_customer_profile_id' => $creditCard->getCustomerId(),
+            'token' => $creditCard->getToken(),
+            'type' => 'credit card',
+            'identifier' => $creditCard->getIdentifier(),
+            'expiration_month' => $creditCard->getExpirationMonth(),
+            'expiration_year' => $creditCard->getExpirationYear(),
+            'auto' => (bool)$auto,
+            'line1' => $creditCard->getLine1(),
+            'city' => $creditCard->getCity(),
+            'state' => $creditCard->getState(),
+            'zip' => $creditCard->getZip(),
+            'country' => $creditCard->getCountry(),
+            'name_on_account' => $creditCard->getName(),
+            'card_type' => $creditCard->getCardType(),
         ]);
     }
 
