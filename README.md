@@ -16,7 +16,7 @@ The recommended installation method is using [Composer](https://www.getcomposer.
     ...
 ]
 ```
-and running `composer require sonarsoftwareinc/customer_portal_framework:dev-master`.
+and running `composer require sonarsoftwareinc/customer_portal_framework:{VERSION NUMBER}`.
 
 ## Configuration
 Copy the `.env.example` file from inside the `src` directory to a new file called `.env`. Edit this file and set your Sonar installation URL, API username, and API password. The only permissions required for this library to function are account create, read, update, and delete, and ticket create, read, and update. It is strongly recommended that you create a dedicated account solely for the customer portal - *do not use your admin account!*
