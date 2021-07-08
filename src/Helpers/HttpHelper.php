@@ -95,8 +95,14 @@ class HttpHelper
         }
         catch (ClientException $e)
         {
-            $textResponse = json_decode($e->getResponse()->getBody());
-            throw new ApiException($this->transformErrorToMessage($textResponse));
+            $errorResponse = $this->transformErrorToMessage ( json_decode($e->getResponse()->getBody()) );
+            switch ($errorResponse) {
+                case 403:
+                    $errorResponse =
+                    "Portal API user, '" . getenv("API_USERNAME") . "' does not have a role with sufficient privileges at " . getenv("SONAR_URL");
+                    break;
+            }
+            throw new ApiException($errorResponse);
         }
         catch (TransferException $e)
         {
@@ -132,8 +138,14 @@ class HttpHelper
         }
         catch (ClientException $e)
         {
-            $textResponse = json_decode($e->getResponse()->getBody());
-            throw new ApiException($this->transformErrorToMessage($textResponse));
+            $errorResponse = $this->transformErrorToMessage ( json_decode($e->getResponse()->getBody()) );
+            switch ($errorResponse) {
+                case 403:
+                    $errorResponse =
+                    "Portal API user, '" . getenv("API_USERNAME") . "' does not have a role with sufficient privileges at " . getenv("SONAR_URL");
+                    break;
+            }
+            throw new ApiException($this->transformErrorToMessage($errorResponse));
         }
         catch (TransferException $e)
         {
