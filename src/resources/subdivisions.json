@@ -5360,6 +5360,9 @@
     },
     "US":
     {
+        "AA": "Armed Forces of the Americas",
+        "AE": "Armed Forces of Europe",
+        "AP": "Armed Forces of the Pacific",
         "AK": "Alaska",
         "AL": "Alabama",
         "AR": "Arkansas",
