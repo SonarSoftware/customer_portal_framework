@@ -222,7 +222,7 @@ class AccountBillingController
         TokenizedCreditCard $creditCard,
         $amount,
         $saveAndMakeAuto = false,
-        $payment_tracker_id = null,
+        $payment_tracker_id = null
     )
     {
         $result = $this->httpHelper->post(
