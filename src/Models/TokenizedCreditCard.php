@@ -210,7 +210,7 @@ class TokenizedCreditCard
             throw new InvalidArgumentException($values['country'] . " is not a valid country.");
         }
 
-        if (!in_array($values['country'], ['US', 'CA'])) {
+        if (!in_array($values['country'], ['US', 'CA', 'GB'])) {
             if (count(subdivisions($values['country'])) > 0 && !in_array($values['state'], subdivisions($values['country']))) {
                 throw new InvalidArgumentException($values['state'] . " is not a valid state.");
             }

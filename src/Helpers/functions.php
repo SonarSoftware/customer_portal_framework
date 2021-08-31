@@ -268,7 +268,7 @@ function subdivisions($country)
         throw new InvalidArgumentException($country . " is not a valid country code.");
     }
 
-    if (in_array($country, ["US","CA"]))
+    if (in_array($country, ["US","CA","GB"]))
     {
         return $subdivisions[$country];
     }
