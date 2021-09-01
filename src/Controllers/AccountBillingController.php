@@ -174,7 +174,7 @@ class AccountBillingController
      * @return mixed
      * @throws ApiException
      */
-    public function makeCreditCardPayment($accountID, CreditCard $creditCard, $amount, $saveAndMakeAuto = false)
+    public function makeCreditCardPayment($accountID, CreditCard $creditCard, $amount, $saveAndMakeAuto = false, $payment_tracker_id = null)
     {
         $result = $this->httpHelper->post("/accounts/" . intval($accountID) . "/transactions/one_time_credit_card_payment", [
             'number' => $creditCard->getNumber(),
@@ -188,6 +188,7 @@ class AccountBillingController
             'zip' => $creditCard->getZip(),
             'country' => $creditCard->getCountry(),
             'cvc' => $creditCard->getCvc(),
+            'payment_tracker_id' => $payment_tracker_id,
         ]);
 
         if ($result->success === true && $saveAndMakeAuto === true)
@@ -220,7 +221,8 @@ class AccountBillingController
         $accountID,
         TokenizedCreditCard $creditCard,
         $amount,
-        $saveAndMakeAuto = false
+        $saveAndMakeAuto = false,
+        $payment_tracker_id = null
     )
     {
         $result = $this->httpHelper->post(
@@ -239,6 +241,7 @@ class AccountBillingController
                 'zip' => $creditCard->getZip(),
                 'country' => $creditCard->getCountry(),
                 'amount' => trim($amount),
+                'payment_tracker_id' => $payment_tracker_id,
             ]
         );
 
@@ -264,12 +267,13 @@ class AccountBillingController
      * @return mixed
      * @throws ApiException
      */
-    public function makePaymentUsingExistingPaymentMethod($accountID, $paymentMethodID, $amount)
+    public function makePaymentUsingExistingPaymentMethod($accountID, $paymentMethodID, $amount, $payment_tracker_id = null)
     {
         return $this->httpHelper->post("/accounts/" . intval($accountID) . "/transactions/payments", [
             'payment_method_id' => intval($paymentMethodID),
             'amount' => trim($amount),
             'auto_apply' => true,
+            'payment_tracker_id' => $payment_tracker_id,
         ]);
     }
 
