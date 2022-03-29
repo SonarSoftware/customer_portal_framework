@@ -374,7 +374,8 @@ class AccountBillingController
     {
         return $this->httpHelper->post("/accounts/" . intval($accountID) . "/transactions/paypal_payments", [
             'amount' => number_format($amount,2,".",""),
-            'transaction_id' => trim($transactionID)
+            'transaction_id' => trim($transactionID),
+            'email_payment_receipt' => true,
         ]);
     }
 
