@@ -189,6 +189,7 @@ class AccountBillingController
             'country' => $creditCard->getCountry(),
             'cvc' => $creditCard->getCvc(),
             'payment_tracker_id' => $payment_tracker_id,
+            'email_payment_receipt' => true,
         ]);
 
         if ($result->success === true && $saveAndMakeAuto === true)
@@ -242,6 +243,7 @@ class AccountBillingController
                 'country' => $creditCard->getCountry(),
                 'amount' => trim($amount),
                 'payment_tracker_id' => $payment_tracker_id,
+                'email_payment_receipt' => true,
             ]
         );
 
@@ -274,6 +276,7 @@ class AccountBillingController
             'amount' => trim($amount),
             'auto_apply' => true,
             'payment_tracker_id' => $payment_tracker_id,
+            'email_payment_receipt' => true,
         ]);
     }
 
@@ -371,7 +374,8 @@ class AccountBillingController
     {
         return $this->httpHelper->post("/accounts/" . intval($accountID) . "/transactions/paypal_payments", [
             'amount' => number_format($amount,2,".",""),
-            'transaction_id' => trim($transactionID)
+            'transaction_id' => trim($transactionID),
+            'email_payment_receipt' => true,
         ]);
     }
 
