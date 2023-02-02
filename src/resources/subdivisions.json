@@ -1,6 +1,5 @@
 {
-    "AD":
-    {
+    "AD": {
         "02": "Canillo",
         "03": "Encamp",
         "04": "La Massana",
@@ -9,8 +8,7 @@
         "07": "Andorra la Vella",
         "08": "Escaldes-Engordany"
     },
-    "AE":
-    {
+    "AE": {
         "AJ": "'Ajmān",
         "AZ": "Abū Z̧aby",
         "DU": "Dubayy",
@@ -19,8 +17,7 @@
         "SH": "Ash Shāriqah",
         "UQ": "Umm al Qaywayn"
     },
-    "AF":
-    {
+    "AF": {
         "BAL": "Balkh",
         "BAM": "Bāmyān",
         "BDG": "Bādghīs",
@@ -56,8 +53,7 @@
         "WAR": "Wardak",
         "ZAB": "Zābul"
     },
-    "AG":
-    {
+    "AG": {
         "03": "Saint George",
         "04": "Saint John",
         "05": "Saint Mary",
@@ -67,8 +63,7 @@
         "10": "Barbuda",
         "11": "Redonda"
     },
-    "AL":
-    {
+    "AL": {
         "01": "Berat",
         "02": "Durrës",
         "03": "Elbasan",
@@ -118,8 +113,7 @@
         "TR": "Tiranë",
         "VL": "Vlorë"
     },
-    "AM":
-    {
+    "AM": {
         "AG": "Aragac̣otn",
         "AR": "Ararat",
         "AV": "Armavir",
@@ -132,8 +126,7 @@
         "TV": "Tavuš",
         "VD": "Vayoć Jor"
     },
-    "AO":
-    {
+    "AO": {
         "BGO": "Bengo",
         "BGU": "Benguela",
         "BIE": "Bié",
@@ -153,8 +146,7 @@
         "UIG": "Uíge",
         "ZAI": "Zaire"
     },
-    "AR":
-    {
+    "AR": {
         "A": "Salta",
         "B": "Buenos Aires",
         "C": "Ciudad Autónoma de Buenos Aires",
@@ -180,8 +172,7 @@
         "Y": "Jujuy",
         "Z": "Santa Cruz"
     },
-    "AT":
-    {
+    "AT": {
         "1": "Burgenland",
         "2": "Kärnten",
         "3": "Niederösterreich",
@@ -192,8 +183,7 @@
         "8": "Vorarlberg",
         "9": "Wien"
     },
-    "AU":
-    {
+    "AU": {
         "ACT": "Australian Capital Territory",
         "NSW": "New South Wales",
         "NT": "Northern Territory",
@@ -203,8 +193,7 @@
         "VIC": "Victoria",
         "WA": "Western Australia"
     },
-    "AZ":
-    {
+    "AZ": {
         "ABS": "Abşeron",
         "AGA": "Ağstafa",
         "AGC": "Ağcabәdi",
@@ -284,8 +273,7 @@
         "ZAQ": "Zaqatala",
         "ZAR": "Zәrdab"
     },
-    "BA":
-    {
+    "BA": {
         "01": "Unsko-sanska županija",
         "02": "Posavski kanton",
         "03": "Tuzlanski kanton",
@@ -300,8 +288,7 @@
         "BRC": "Brčko distrikt",
         "SRP": "Republika Srpska"
     },
-    "BB":
-    {
+    "BB": {
         "01": "Christ Church",
         "02": "Saint Andrew",
         "03": "Saint George",
@@ -314,8 +301,7 @@
         "10": "Saint Philip",
         "11": "Saint Thomas"
     },
-    "BD":
-    {
+    "BD": {
         "01": "Bandarban",
         "02": "Barguna",
         "03": "Bogra",
@@ -388,8 +374,7 @@
         "F": "Rangpur",
         "G": "Sylhet"
     },
-    "BE":
-    {
+    "BE": {
         "BRU": "Bruxelles-Capitale, Région de",
         "VAN": "Antwerpen",
         "VBR": "Vlaams-Brabant",
@@ -404,8 +389,7 @@
         "WLX": "Luxembourg",
         "WNA": "Namur"
     },
-    "BF":
-    {
+    "BF": {
         "01": "Boucle du Mouhoun",
         "02": "Cascades",
         "03": "Centre",
@@ -465,8 +449,7 @@
         "ZON": "Zondoma",
         "ZOU": "Zoundwéogo"
     },
-    "BG":
-    {
+    "BG": {
         "01": "Blagoevgrad",
         "02": "Burgas",
         "03": "Varna",
@@ -496,16 +479,14 @@
         "27": "Shumen",
         "28": "Yambol"
     },
-    "BH":
-    {
+    "BH": {
         "13": "Al Manāmah",
         "14": "Al Janūbīyah",
         "15": "Al Muḩarraq",
         "16": "Al Wusţá",
         "17": "Ash Shamālīyah"
     },
-    "BI":
-    {
+    "BI": {
         "BB": "Bubanza",
         "BL": "Bujumbura Rural",
         "BM": "Bujumbura Mairie",
@@ -524,8 +505,7 @@
         "RT": "Rutana",
         "RY": "Ruyigi"
     },
-    "BJ":
-    {
+    "BJ": {
         "AK": "Atakora",
         "AL": "Alibori",
         "AQ": "Atlantique",
@@ -539,15 +519,13 @@
         "PL": "Plateau",
         "ZO": "Zou"
     },
-    "BN":
-    {
+    "BN": {
         "BE": "Belait",
         "BM": "Brunei-Muara",
         "TE": "Temburong",
         "TU": "Tutong"
     },
-    "BO":
-    {
+    "BO": {
         "B": "El Beni",
         "C": "Cochabamba",
         "H": "Chuquisaca",
@@ -558,14 +536,12 @@
         "S": "Santa Cruz",
         "T": "Tarija"
     },
-    "BQ":
-    {
+    "BQ": {
         "BO": "Bonaire",
         "SA": "Saba",
         "SE": "Sint Eustatius"
     },
-    "BR":
-    {
+    "BR": {
         "AC": "Acre",
         "AL": "Alagoas",
         "AM": "Amazonas",
@@ -594,8 +570,7 @@
         "SP": "São Paulo",
         "TO": "Tocantins"
     },
-    "BS":
-    {
+    "BS": {
         "AK": "Acklins",
         "BI": "Bimini",
         "BP": "Black Point",
@@ -628,8 +603,7 @@
         "SW": "Spanish Wells",
         "WG": "West Grand Bahama"
     },
-    "BT":
-    {
+    "BT": {
         "11": "Paro",
         "12": "Chhukha",
         "13": "Ha",
@@ -651,8 +625,7 @@
         "GA": "Gasa",
         "TY": "Trashi Yangtse"
     },
-    "BW":
-    {
+    "BW": {
         "CE": "Central",
         "CH": "Chobe",
         "FR": "Francistown",
@@ -670,8 +643,7 @@
         "SP": "Selibe Phikwe",
         "ST": "Sowa Town"
     },
-    "BY":
-    {
+    "BY": {
         "BR": "Brestskaya voblasts'",
         "HM": "Horad Minsk",
         "HO": "Homyel'skaya voblasts'",
@@ -680,8 +652,7 @@
         "MI": "Minskaja oblast'",
         "VI": "Vitebskaya oblast'"
     },
-    "BZ":
-    {
+    "BZ": {
         "BZ": "Belize",
         "CY": "Cayo",
         "CZL": "Corozal",
@@ -689,8 +660,7 @@
         "SC": "Stann Creek",
         "TOL": "Toledo"
     },
-    "CA":
-    {
+    "CA": {
         "AB": "Alberta",
         "BC": "British Columbia",
         "MB": "Manitoba",
@@ -705,8 +675,7 @@
         "SK": "Saskatchewan",
         "YT": "Yukon"
     },
-    "CD":
-    {
+    "CD": {
         "BC": "Bas-Congo",
         "BN": "Bandundu",
         "EQ": "Équateur",
@@ -719,8 +688,7 @@
         "OR": "Orientale",
         "SK": "Sud-Kivu"
     },
-    "CF":
-    {
+    "CF": {
         "AC": "Wâmo",
         "BB": "Bamingui-Bangoran",
         "BGF": "Bangui",
@@ -739,8 +707,7 @@
         "UK": "Ouaka",
         "VK": "Vakaga"
     },
-    "CG":
-    {
+    "CG": {
         "11": "Bouenza",
         "12": "Pool",
         "13": "Sangha",
@@ -754,8 +721,7 @@
         "9": "Niari",
         "BZV": "Brazzaville"
     },
-    "CH":
-    {
+    "CH": {
         "AG": "Aargau",
         "AI": "Appenzell Innerrhoden",
         "AR": "Appenzell Ausserrhoden",
@@ -783,8 +749,7 @@
         "ZG": "Zug",
         "ZH": "Zürich"
     },
-    "CI":
-    {
+    "CI": {
         "01": "Lagunes",
         "02": "Haut-Sassandra",
         "03": "Savanes",
@@ -805,8 +770,7 @@
         "18": "Fromager",
         "19": "Moyen-Cavally"
     },
-    "CL":
-    {
+    "CL": {
         "AI": "Aysén",
         "AN": "Antofagasta",
         "AP": "Arica y Parinacota",
@@ -823,8 +787,7 @@
         "TA": "Tarapacá",
         "VS": "Valparaíso"
     },
-    "CM":
-    {
+    "CM": {
         "AD": "Adamaoua",
         "CE": "Centre",
         "EN": "Far North",
@@ -836,8 +799,7 @@
         "SU": "Sud",
         "SW": "South-West"
     },
-    "CN":
-    {
+    "CN": {
         "11": "Beijing",
         "12": "Tianjin",
         "13": "Hebei",
@@ -873,8 +835,7 @@
         "91": "Xianggang",
         "92": "Macao"
     },
-    "CO":
-    {
+    "CO": {
         "AMA": "Amazonas",
         "ANT": "Antioquia",
         "ARA": "Arauca",
@@ -909,8 +870,7 @@
         "VAU": "Vaupés",
         "VID": "Vichada"
     },
-    "CR":
-    {
+    "CR": {
         "A": "Alajuela",
         "C": "Cartago",
         "G": "Guanacaste",
@@ -919,8 +879,7 @@
         "P": "Puntarenas",
         "SJ": "San José"
     },
-    "CU":
-    {
+    "CU": {
         "01": "Pinar del Río",
         "03": "La Habana",
         "04": "Matanzas",
@@ -938,8 +897,7 @@
         "16": "Mayabeque",
         "99": "Isla de la Juventud"
     },
-    "CV":
-    {
+    "CV": {
         "B": "Ilhas de Barlavento",
         "BR": "Brava",
         "BV": "Boa Vista",
@@ -965,8 +923,7 @@
         "TA": "Tarrafal",
         "TS": "Tarrafal de São Nicolau"
     },
-    "CY":
-    {
+    "CY": {
         "01": "Lefkoşa",
         "02": "Lemesos",
         "03": "Larnaka",
@@ -974,8 +931,7 @@
         "05": "Baf",
         "06": "Girne"
     },
-    "CZ":
-    {
+    "CZ": {
         "101": "Praha 1",
         "102": "Praha 2",
         "103": "Praha 3",
@@ -1082,8 +1038,7 @@
         "VY": "Vysočina",
         "ZL": "Zlínský kraj"
     },
-    "DE":
-    {
+    "DE": {
         "BB": "Brandenburg",
         "BE": "Berlin",
         "BW": "Baden-Württemberg",
@@ -1101,8 +1056,7 @@
         "ST": "Sachsen-Anhalt",
         "TH": "Thüringen"
     },
-    "DJ":
-    {
+    "DJ": {
         "AR": "‘Artā",
         "AS": "Ali Sabieh",
         "DI": "Dikhil",
@@ -1110,16 +1064,14 @@
         "OB": "Obock",
         "TA": "Tājūrah"
     },
-    "DK":
-    {
+    "DK": {
         "81": "Nordjylland",
         "82": "Midtjylland",
         "83": "Syddanmark",
         "84": "Hovedstaden",
         "85": "Sjælland"
     },
-    "DM":
-    {
+    "DM": {
         "02": "Saint Andrew",
         "03": "Saint David",
         "04": "Saint George",
@@ -1131,8 +1083,7 @@
         "10": "Saint Paul",
         "11": "Saint Peter"
     },
-    "DO":
-    {
+    "DO": {
         "01": "Distrito Nacional",
         "02": "Azua",
         "03": "Baoruco",
@@ -1176,8 +1127,7 @@
         "41": "Valdesia",
         "42": "Yuma"
     },
-    "DZ":
-    {
+    "DZ": {
         "01": "Adrar",
         "02": "Chlef",
         "03": "Laghouat",
@@ -1227,8 +1177,7 @@
         "47": "Ghardaïa",
         "48": "Relizane"
     },
-    "EC":
-    {
+    "EC": {
         "A": "Azuay",
         "B": "Bolívar",
         "C": "Carchi",
@@ -1254,8 +1203,7 @@
         "Y": "Pastaza",
         "Z": "Zamora-Chinchipe"
     },
-    "EE":
-    {
+    "EE": {
         "37": "Harjumaa",
         "39": "Hiiumaa",
         "44": "Ida-Virumaa",
@@ -1272,8 +1220,7 @@
         "84": "Viljandimaa",
         "86": "Võrumaa"
     },
-    "EG":
-    {
+    "EG": {
         "ALX": "Al Iskandarīyah",
         "ASN": "Aswān",
         "AST": "Asyūţ",
@@ -1302,8 +1249,7 @@
         "SUZ": "As Suways",
         "WAD": "Al Wādī al Jadīd"
     },
-    "ER":
-    {
+    "ER": {
         "AN": "Ansabā",
         "DK": "Debubawi K’eyyĭḥ Baḥri",
         "DU": "Al Janūbī",
@@ -1311,8 +1257,7 @@
         "MA": "Ma’ĭkel",
         "SK": "Shimālī al Baḩrī al Aḩmar"
     },
-    "ES":
-    {
+    "ES": {
         "A": "Alicante",
         "AB": "Albacete",
         "AL": "Almería",
@@ -1383,8 +1328,7 @@
         "Z": "Zaragoza",
         "ZA": "Zamora"
     },
-    "ET":
-    {
+    "ET": {
         "AA": "Addis Ababa",
         "AF": "Āfar",
         "AM": "Āmara",
@@ -1397,8 +1341,7 @@
         "SO": "Somali",
         "TI": "Tigray"
     },
-    "FI":
-    {
+    "FI": {
         "01": "Landskapet Åland",
         "02": "Etelä-Karjala",
         "03": "Etelä-Pohjanmaa",
@@ -1419,8 +1362,7 @@
         "18": "Uusimaa",
         "19": "Egentliga Finland"
     },
-    "FJ":
-    {
+    "FJ": {
         "01": "Ba",
         "02": "Bua",
         "03": "Cakaudrove",
@@ -1441,15 +1383,13 @@
         "R": "Rotuma",
         "W": "Western"
     },
-    "FM":
-    {
+    "FM": {
         "KSA": "Kosrae",
         "PNI": "Pohnpei",
         "TRK": "Chuuk",
         "YAP": "Yap"
     },
-    "FR":
-    {
+    "FR": {
         "01": "Ain",
         "02": "Aisne",
         "03": "Allier",
@@ -1582,8 +1522,7 @@
         "WF": "Wallis-et-Futuna",
         "YT": "Mayotte"
     },
-    "GA":
-    {
+    "GA": {
         "1": "Estuaire",
         "2": "Haut-Ogooué",
         "3": "Moyen-Ogooué",
@@ -1594,8 +1533,7 @@
         "8": "Ogooué-Maritime",
         "9": "Woleu-Ntem"
     },
-    "GB":
-    {
+    "GB": {
         "ABD": "Aberdeenshire",
         "ABE": "Aberdeen City",
         "AGB": "Argyll and Bute",
@@ -1836,8 +1774,7 @@
         "YOR": "York",
         "ZET": "Shetland Islands"
     },
-    "GD":
-    {
+    "GD": {
         "01": "Saint Andrew",
         "02": "Saint David",
         "03": "Saint George",
@@ -1846,8 +1783,7 @@
         "06": "Saint Patrick",
         "10": "Southern Grenadine Islands"
     },
-    "GE":
-    {
+    "GE": {
         "AB": "Abkhazia",
         "AJ": "Ajaria",
         "GU": "Guria",
@@ -1861,8 +1797,7 @@
         "SZ": "Samegrelo-Zemo Svaneti",
         "TB": "Tbilisi"
     },
-    "GH":
-    {
+    "GH": {
         "AA": "Greater Accra",
         "AH": "Ashanti",
         "BA": "Brong-Ahafo",
@@ -1874,15 +1809,13 @@
         "UW": "Upper West",
         "WP": "Western"
     },
-    "GL":
-    {
+    "GL": {
         "KU": "Kommune Kujalleq",
         "QA": "Qaasuitsup Kommunia",
         "QE": "Qeqqata Kommunia",
         "SM": "Kommuneqarfik Sermersooq"
     },
-    "GM":
-    {
+    "GM": {
         "B": "Banjul",
         "L": "Lower River",
         "M": "Central River",
@@ -1890,8 +1823,7 @@
         "U": "Upper River",
         "W": "Western"
     },
-    "GN":
-    {
+    "GN": {
         "B": "Boké",
         "BE": "Beyla",
         "BF": "Boffa",
@@ -1934,8 +1866,7 @@
         "TO": "Tougué",
         "YO": "Yomou"
     },
-    "GQ":
-    {
+    "GQ": {
         "AN": "Ano Bom",
         "BN": "Bioko Norte",
         "BS": "Bioko Sur",
@@ -1946,8 +1877,7 @@
         "LI": "Litoral",
         "WN": "Wele-Nzas"
     },
-    "GR":
-    {
+    "GR": {
         "01": "Aitoloakarnanía",
         "03": "Voiotía",
         "04": "Évvoia",
@@ -2014,8 +1944,7 @@
         "L": "Notío Aigaío",
         "M": "Krítí"
     },
-    "GT":
-    {
+    "GT": {
         "AV": "Alta Verapaz",
         "BV": "Baja Verapaz",
         "CM": "Chimaltenango",
@@ -2039,8 +1968,7 @@
         "TO": "Totonicapán",
         "ZA": "Zacapa"
     },
-    "GW":
-    {
+    "GW": {
         "BA": "Bafatá",
         "BL": "Bolama",
         "BM": "Biombo",
@@ -2054,8 +1982,7 @@
         "S": "Sul",
         "TO": "Tombali"
     },
-    "GY":
-    {
+    "GY": {
         "BA": "Barima-Waini",
         "CU": "Cuyuni-Mazaruni",
         "DE": "Demerara-Mahaica",
@@ -2067,8 +1994,7 @@
         "UD": "Upper Demerara-Berbice",
         "UT": "Upper Takutu-Upper Essequibo"
     },
-    "HN":
-    {
+    "HN": {
         "AT": "Atlántida",
         "CH": "Choluteca",
         "CL": "Colón",
@@ -2088,8 +2014,7 @@
         "VA": "Valle",
         "YO": "Yoro"
     },
-    "HR":
-    {
+    "HR": {
         "01": "Zagrebačka županija",
         "02": "Krapinsko-zagorska županija",
         "03": "Sisačko-moslavačka županija",
@@ -2112,8 +2037,7 @@
         "20": "Međimurska županija",
         "21": "Grad Zagreb"
     },
-    "HT":
-    {
+    "HT": {
         "AR": "Latibonit",
         "CE": "Centre",
         "GA": "Grande-Anse",
@@ -2125,8 +2049,7 @@
         "SD": "Sud",
         "SE": "Sidès"
     },
-    "HU":
-    {
+    "HU": {
         "BA": "Baranya",
         "BC": "Békéscsaba",
         "BE": "Békés",
@@ -2171,8 +2094,7 @@
         "ZA": "Zala",
         "ZE": "Zalaegerszeg"
     },
-    "ID":
-    {
+    "ID": {
         "AC": "Aceh",
         "BA": "Bali",
         "BB": "Bangka Belitung",
@@ -2215,41 +2137,39 @@
         "SU": "Sumatera Utara",
         "YO": "Yogyakarta"
     },
-    "IE":
-    {
-        "C": "Connacht",
+    "IE": {
+        "C": "Connaught",
         "CE": "Clare",
-        "CN": "An Cabhán",
+        "CN": "Cavan",
         "CO": "Cork",
-        "CW": "Ceatharlach",
+        "CW": "Carlow",
         "D": "Dublin",
-        "DL": "Dún na nGall",
-        "G": "Gaillimh",
-        "KE": "Cill Dara",
+        "DL": "Donegal",
+        "G": "Galway",
+        "KE": "Kildare",
         "KK": "Kilkenny",
         "KY": "Kerry",
-        "L": "Laighin",
+        "L": "Leinster",
         "LD": "Longford",
         "LH": "Louth",
-        "LK": "Luimneach",
+        "LK": "Limerick",
         "LM": "Leitrim",
         "LS": "Laois",
         "M": "Munster",
         "MH": "Meath",
-        "MN": "Muineachán",
-        "MO": "Maigh Eo",
+        "MN": "Monaghan",
+        "MO": "Mayo",
         "OY": "Offaly",
-        "RN": "Ros Comáin",
+        "RN": "Roscommon",
         "SO": "Sligo",
         "TA": "Tipperary",
         "U": "Ulster",
         "WD": "Waterford",
         "WH": "Westmeath",
         "WW": "Wicklow",
-        "WX": "Loch Garman"
+        "WX": "Wexford"
     },
-    "IL":
-    {
+    "IL": {
         "D": "El Janūbī",
         "HA": "Ḥeifā",
         "JM": "Al Quds",
@@ -2257,8 +2177,7 @@
         "TA": "Tell Abīb",
         "Z": "Esh Shamālī"
     },
-    "IN":
-    {
+    "IN": {
         "AN": "Andaman and Nicobar Islands",
         "AP": "Andhra Pradesh",
         "AR": "Arunachal Pradesh",
@@ -2296,8 +2215,7 @@
         "UT": "Uttarakhand",
         "WB": "West Bengal"
     },
-    "IQ":
-    {
+    "IQ": {
         "AN": "Al Anbār",
         "AR": "Arbīl",
         "BA": "Al Başrah",
@@ -2317,8 +2235,7 @@
         "SU": "As Sulaymānīyah",
         "WA": "Wāsiţ"
     },
-    "IR":
-    {
+    "IR": {
         "01": "Āz̄arbāyjān-e Sharqī",
         "02": "Āz̄arbāyjān-e Gharbī",
         "03": "Ardabīl",
@@ -2351,8 +2268,7 @@
         "31": "Khorāsān-e Shemālī",
         "32": "Alborz"
     },
-    "IS":
-    [
+    "IS": [
         "Reykjavík",
         "Höfuðborgarsvæði utan Reykjavíkur",
         "Suðurnes",
@@ -2363,8 +2279,7 @@
         "Austurland",
         "Suðurland"
     ],
-    "IT":
-    {
+    "IT": {
         "21": "Piemonte",
         "23": "Val d'Aoste",
         "25": "Lombardia",
@@ -2496,8 +2411,7 @@
         "VT": "Viterbo",
         "VV": "Vibo Valentia"
     },
-    "JM":
-    {
+    "JM": {
         "01": "Kingston",
         "02": "Saint Andrew",
         "03": "Saint Thomas",
@@ -2513,8 +2427,7 @@
         "13": "Clarendon",
         "14": "Saint Catherine"
     },
-    "JO":
-    {
+    "JO": {
         "AJ": "ʽAjlūn",
         "AM": "‘Ammān",
         "AQ": "Al ʽAqabah",
@@ -2528,8 +2441,7 @@
         "MD": "Mādabā",
         "MN": "Ma'ān"
     },
-    "JP":
-    {
+    "JP": {
         "01": "Hokkaidô",
         "02": "Aomori",
         "03": "Iwate",
@@ -2578,8 +2490,7 @@
         "46": "Kagoshima",
         "47": "Okinawa"
     },
-    "KE":
-    {
+    "KE": {
         "01": "Baringo",
         "02": "Bomet",
         "03": "Bungoma",
@@ -2628,8 +2539,7 @@
         "46": "Wajir",
         "47": "West Pokot"
     },
-    "KG":
-    {
+    "KG": {
         "B": "Batkenskaja oblast'",
         "C": "Chuyskaya oblast'",
         "GB": "Bishkek",
@@ -2640,8 +2550,7 @@
         "T": "Talas",
         "Y": "Ysyk-Köl"
     },
-    "KH":
-    {
+    "KH": {
         "1": "Banteay Mean Chey",
         "10": "Kracheh",
         "11": "Mondol Kiri",
@@ -2667,20 +2576,17 @@
         "8": "Kândal",
         "9": "Kaôh Kŏng"
     },
-    "KI":
-    {
+    "KI": {
         "G": "Gilbert Islands",
         "L": "Line Islands",
         "P": "Phoenix Islands"
     },
-    "KM":
-    {
+    "KM": {
         "A": "Anjwān",
         "G": "Anjazījah",
         "M": "Mūhīlī"
     },
-    "KN":
-    {
+    "KN": {
         "01": "Christ Church Nichola Town",
         "02": "Saint Anne Sandy Point",
         "03": "Saint George Basseterre",
@@ -2698,8 +2604,7 @@
         "K": "Saint Kitts",
         "N": "Nevis"
     },
-    "KP":
-    {
+    "KP": {
         "01": "Phyeongyang",
         "02": "P'yǒngan-namdo",
         "03": "Phyeonganpukto",
@@ -2712,8 +2617,7 @@
         "10": "Yanggang-do",
         "13": "Nasǒn"
     },
-    "KR":
-    {
+    "KR": {
         "11": "Seoul-T'ǔkpyǒlshi",
         "26": "Busan-gwangyeoksi",
         "27": "Daegu-gwangyeoksi",
@@ -2732,8 +2636,7 @@
         "49": "Jejudo",
         "50": "Sejong"
     },
-    "KW":
-    {
+    "KW": {
         "AH": "Al Aḩmadī",
         "FA": "Al Farwānīyah",
         "HA": "Ḩawallī",
@@ -2741,8 +2644,7 @@
         "KU": "Al Kuwayt",
         "MU": "Mubārak al Kabīr"
     },
-    "KZ":
-    {
+    "KZ": {
         "AKM": "Akmolinskaya oblast'",
         "AKT": "Aktyubinskaya oblast'",
         "ALA": "Almaty",
@@ -2760,8 +2662,7 @@
         "ZAP": "Batys Qazaqstan oblysy",
         "ZHA": "Zhambyl oblysy"
     },
-    "LA":
-    {
+    "LA": {
         "AT": "Attopeu",
         "BK": "Bokèo",
         "BL": "Borikhane",
@@ -2781,8 +2682,7 @@
         "XI": "Xieng Khouang",
         "XN": "Xaisômboun"
     },
-    "LB":
-    {
+    "LB": {
         "AK": "‘Akkār",
         "AS": "Liban-Nord",
         "BA": "Beyrouth",
@@ -2792,8 +2692,7 @@
         "JL": "Jabal Lubnān",
         "NA": "An Nabaţīyah"
     },
-    "LC":
-    {
+    "LC": {
         "01": "Anse la Raye",
         "02": "Castries",
         "03": "Choiseul",
@@ -2805,8 +2704,7 @@
         "11": "Vieux Fort",
         "12": "Canaries"
     },
-    "LI":
-    {
+    "LI": {
         "01": "Balzers",
         "02": "Eschen",
         "03": "Gamprin",
@@ -2819,8 +2717,7 @@
         "10": "Triesenberg",
         "11": "Vaduz"
     },
-    "LK":
-    {
+    "LK": {
         "1": "Western Province",
         "11": "Colombo",
         "12": "Gampaha",
@@ -2856,8 +2753,7 @@
         "91": "Ratnapura",
         "92": "Kegalla"
     },
-    "LR":
-    {
+    "LR": {
         "BG": "Bong",
         "BM": "Bomi",
         "CM": "Grand Cape Mount",
@@ -2874,8 +2770,7 @@
         "RI": "Rivercess",
         "SI": "Sinoe"
     },
-    "LS":
-    {
+    "LS": {
         "A": "Maseru",
         "B": "Butha-Buthe",
         "C": "Leribe",
@@ -2887,8 +2782,7 @@
         "J": "Mokhotlong",
         "K": "Thaba-Tseka"
     },
-    "LT":
-    {
+    "LT": {
         "01": "Akmenė",
         "02": "Alytaus miestas",
         "03": "Alytus",
@@ -2960,14 +2854,12 @@
         "UT": "Utenos apskritis",
         "VL": "Vilniaus apskritis"
     },
-    "LU":
-    {
+    "LU": {
         "D": "Diekirch",
         "G": "Grevenmacher",
         "L": "Luxembourg"
     },
-    "LV":
-    {
+    "LV": {
         "001": "Aglonas novads",
         "002": "Aizkraukles novads",
         "003": "Aizputes novads",
@@ -3088,8 +2980,7 @@
         "VEN": "Ventspils",
         "VMR": "Valmiera"
     },
-    "LY":
-    {
+    "LY": {
         "BA": "Banghāzī",
         "BU": "Al Buţnān",
         "DR": "Darnah",
@@ -3113,8 +3004,7 @@
         "WS": "Wādī ash Shāţi’",
         "ZA": "Az Zāwiyah"
     },
-    "MA":
-    {
+    "MA": {
         "01": "Tanger-Tétouan",
         "02": "Gharb-Chrarda-Beni Hssen",
         "03": "Taza-Al Hoceima-Taounate",
@@ -3195,8 +3085,7 @@
         "TNT": "Tan-Tan",
         "ZAG": "Zagora"
     },
-    "MC":
-    {
+    "MC": {
         "CL": "La Colle",
         "CO": "La Condamine",
         "FO": "Fontvieille",
@@ -3215,8 +3104,7 @@
         "SR": "Saint-Roman",
         "VR": "Vallon de la Rousse"
     },
-    "MD":
-    {
+    "MD": {
         "AN": "Anenii Noi",
         "BA": "Bălţi",
         "BD": "Bender",
@@ -3255,8 +3143,7 @@
         "TE": "Teleneşti",
         "UN": "Ungheni"
     },
-    "ME":
-    {
+    "ME": {
         "01": "Andrijevica",
         "02": "Bar",
         "03": "Berane",
@@ -3281,8 +3168,7 @@
         "22": "Gusinje",
         "23": "Petnjica"
     },
-    "MG":
-    {
+    "MG": {
         "A": "Toamasina",
         "D": "Antsiranana",
         "F": "Fianarantsoa",
@@ -3290,8 +3176,7 @@
         "T": "Antananarivo",
         "U": "Toliara"
     },
-    "MH":
-    {
+    "MH": {
         "ALK": "Ailuk",
         "ALL": "Ailinglaplap",
         "ARN": "Arno",
@@ -3319,8 +3204,7 @@
         "WTH": "Wotho",
         "WTJ": "Wotje"
     },
-    "MK":
-    {
+    "MK": {
         "01": "Aerodrom †",
         "02": "Aračinovo",
         "03": "Berovo",
@@ -3406,8 +3290,7 @@
         "83": "Štip",
         "84": "Šuto Orizari †"
     },
-    "ML":
-    {
+    "ML": {
         "1": "Kayes",
         "2": "Koulikoro",
         "3": "Sikasso",
@@ -3418,8 +3301,7 @@
         "8": "Kidal",
         "BKO": "Bamako"
     },
-    "MM":
-    {
+    "MM": {
         "01": "Sagaing",
         "02": "Bago",
         "03": "Magway",
@@ -3436,8 +3318,7 @@
         "17": "Shan",
         "18": "Nay Pyi Taw"
     },
-    "MN":
-    {
+    "MN": {
         "035": "Orhon",
         "037": "Darhan uul",
         "039": "Hentiy",
@@ -3461,8 +3342,7 @@
         "073": "Arhangay",
         "1": "Ulaanbaatar"
     },
-    "MR":
-    {
+    "MR": {
         "01": "Hodh ech Chargui",
         "02": "Hodh el Gharbi",
         "03": "Assaba",
@@ -3477,8 +3357,7 @@
         "12": "Inchiri",
         "NKC": "Nouakchott"
     },
-    "MT":
-    {
+    "MT": {
         "01": "Attard",
         "02": "Balzan",
         "03": "Birgu",
@@ -3548,8 +3427,7 @@
         "67": "Żejtun",
         "68": "Żurrieq"
     },
-    "MU":
-    {
+    "MU": {
         "AG": "Agalega Islands",
         "BL": "Black River",
         "BR": "Beau Bassin-Rose Hill",
@@ -3568,8 +3446,7 @@
         "SA": "Savanne",
         "VP": "Vacoas-Phoenix"
     },
-    "MV":
-    {
+    "MV": {
         "00": "Ari Atholhu Dhekunuburi",
         "01": "Seenu",
         "02": "Ari Atholhu Uthuruburi",
@@ -3599,8 +3476,7 @@
         "UN": "Mathi-Uthuru",
         "US": "Mathi-Dhekunu"
     },
-    "MW":
-    {
+    "MW": {
         "BA": "Balaka",
         "BL": "Blantyre",
         "C": "Chapakati",
@@ -3633,8 +3509,7 @@
         "TH": "Thyolo",
         "ZO": "Zomba"
     },
-    "MX":
-    {
+    "MX": {
         "AGU": "Aguascalientes",
         "BCN": "Baja California",
         "BCS": "Baja California Sur",
@@ -3668,8 +3543,7 @@
         "YUC": "Yucatán",
         "ZAC": "Zacatecas"
     },
-    "MY":
-    {
+    "MY": {
         "01": "Johor",
         "02": "Kedah",
         "03": "Kelantan",
@@ -3687,8 +3561,7 @@
         "15": "Wilayah Persekutuan Labuan",
         "16": "Wilayah Persekutuan Putrajaya"
     },
-    "MZ":
-    {
+    "MZ": {
         "A": "Niassa",
         "B": "Manica",
         "G": "Gaza",
@@ -3701,8 +3574,7 @@
         "S": "Sofala",
         "T": "Tete"
     },
-    "NA":
-    {
+    "NA": {
         "CA": "Zambezi",
         "ER": "Erongo",
         "HA": "Hardap",
@@ -3718,8 +3590,7 @@
         "OT": "Oshikoto",
         "OW": "Ohangwena"
     },
-    "NE":
-    {
+    "NE": {
         "1": "Agadez",
         "2": "Diffa",
         "3": "Dosso",
@@ -3729,8 +3600,7 @@
         "7": "Zinder",
         "8": "Niamey"
     },
-    "NG":
-    {
+    "NG": {
         "AB": "Abia",
         "AD": "Adamawa",
         "AK": "Akwa Ibom",
@@ -3769,8 +3639,7 @@
         "YO": "Yobe",
         "ZA": "Zamfara"
     },
-    "NI":
-    {
+    "NI": {
         "AN": "Atlántico Norte",
         "AS": "Atlántico Sur",
         "BO": "Boaco",
@@ -3789,8 +3658,7 @@
         "RI": "Rivas",
         "SJ": "Río San Juan"
     },
-    "NL":
-    {
+    "NL": {
         "AW": "Aruba",
         "BQ1": "Bonaire",
         "BQ2": "Saba",
@@ -3810,8 +3678,7 @@
         "ZE": "Zeeland",
         "ZH": "Zuid-Holland"
     },
-    "NO":
-    {
+    "NO": {
         "01": "Østfold",
         "02": "Akershus",
         "03": "Oslo",
@@ -3834,8 +3701,7 @@
         "21": "Svalbard",
         "22": "Jan Mayen"
     },
-    "NP":
-    {
+    "NP": {
         "1": "Madhyamanchal",
         "2": "Madhya Pashchimanchal",
         "3": "Pashchimanchal",
@@ -3856,8 +3722,7 @@
         "SA": "Sagarmatha",
         "SE": "Seti"
     },
-    "NR":
-    {
+    "NR": {
         "01": "Aiwo",
         "02": "Anabar",
         "03": "Anetan",
@@ -3873,8 +3738,7 @@
         "13": "Uaboe",
         "14": "Yaren"
     },
-    "NZ":
-    {
+    "NZ": {
         "AUK": "country_subdivisions.NZ-AUK",
         "BOP": "country_subdivisions.NZ-BOP",
         "CAN": "country_subdivisions.NZ-CAN",
@@ -3895,8 +3759,7 @@
         "WKO": "country_subdivisions.NZ-WKO",
         "WTC": "country_subdivisions.NZ-WTC"
     },
-    "OM":
-    {
+    "OM": {
         "BA": "Al Bāţinah",
         "BU": "Al Buraymī",
         "DA": "Ad Dākhilīyah",
@@ -3907,8 +3770,7 @@
         "ZA": "Az̧ Z̧āhirah",
         "ZU": "Z̧ufār"
     },
-    "PA":
-    {
+    "PA": {
         "1": "Bocas del Toro",
         "10": "Panamá Oeste",
         "2": "Coclé",
@@ -3923,8 +3785,7 @@
         "KY": "Kuna Yala",
         "NB": "Ngöbe-Buglé"
     },
-    "PE":
-    {
+    "PE": {
         "AMA": "Amazonas",
         "ANC": "Ancash",
         "APU": "Apurímac",
@@ -3952,8 +3813,7 @@
         "TUM": "Tumpis",
         "UCA": "Ukayali"
     },
-    "PG":
-    {
+    "PG": {
         "CPK": "Chimbu",
         "CPM": "Central",
         "EBR": "East New Britain",
@@ -3977,8 +3837,7 @@
         "WHM": "Western Highlands",
         "WPD": "Western"
     },
-    "PH":
-    {
+    "PH": {
         "00": "Pambansang Punong Rehiyon",
         "01": "Rehiyon ng Iloko",
         "02": "Rehiyon ng Lambak ng Kagayan",
@@ -4077,8 +3936,7 @@
         "ZMB": "Zambales",
         "ZSI": "Zamboanga Sibugay"
     },
-    "PK":
-    {
+    "PK": {
         "BA": "Balōchistān",
         "GB": "Gilgit-Baltistan",
         "IS": "Islamabad",
@@ -4088,8 +3946,7 @@
         "SD": "Sindh",
         "TA": "Federally Administered Tribal Areas"
     },
-    "PL":
-    {
+    "PL": {
         "DS": "Dolnośląskie",
         "KP": "Kujawsko-pomorskie",
         "LB": "Lubuskie",
@@ -4107,8 +3964,7 @@
         "WP": "Wielkopolskie",
         "ZP": "Zachodniopomorskie"
     },
-    "PS":
-    {
+    "PS": {
         "BTH": "Bayt Laḩm",
         "DEB": "Dayr al Balaḩ",
         "GZA": "Ghazzah",
@@ -4126,8 +3982,7 @@
         "TBS": "Ţūbās",
         "TKM": "Ţūlkarm"
     },
-    "PT":
-    {
+    "PT": {
         "01": "Aveiro",
         "02": "Beja",
         "03": "Braga",
@@ -4149,8 +4004,7 @@
         "20": "Região Autónoma dos Açores",
         "30": "Região Autónoma da Madeira"
     },
-    "PW":
-    {
+    "PW": {
         "002": "Aimeliik",
         "004": "Airai",
         "010": "Angaur",
@@ -4168,8 +4022,7 @@
         "350": "Peleliu",
         "370": "Sonsorol"
     },
-    "PY":
-    {
+    "PY": {
         "1": "Concepción",
         "10": "Alto Paraná",
         "11": "Central",
@@ -4189,8 +4042,7 @@
         "9": "Paraguarí",
         "ASU": "Asunción"
     },
-    "QA":
-    {
+    "QA": {
         "DA": "Ad Dawḩah",
         "KH": "Al Khawr wa adh Dhakhīrah",
         "MS": "Ash Shamāl",
@@ -4199,8 +4051,7 @@
         "WA": "Al Wakrah",
         "ZA": "Az̧ Z̧a‘āyin"
     },
-    "RO":
-    {
+    "RO": {
         "AB": "Alba",
         "AG": "Argeş",
         "AR": "Arad",
@@ -4244,8 +4095,7 @@
         "VN": "Vrancea",
         "VS": "Vaslui"
     },
-    "RS":
-    {
+    "RS": {
         "00": "Beograd",
         "01": "Severnobački okrug",
         "02": "Srednjebanatski okrug",
@@ -4279,8 +4129,7 @@
         "KM": "Kosovo-Metohija",
         "VO": "Vojvodina"
     },
-    "RU":
-    {
+    "RU": {
         "AD": "Adygeja, Respublika",
         "AL": "Altay, Respublika",
         "ALT": "Altayskiy kray",
@@ -4365,16 +4214,14 @@
         "YEV": "Evrejskaja avtonomnaja oblast'",
         "ZAB": "Zabajkal'skij kraj"
     },
-    "RW":
-    {
+    "RW": {
         "01": "Ville de Kigali",
         "02": "Est",
         "03": "Nord",
         "04": "Ouest",
         "05": "Sud"
     },
-    "SA":
-    {
+    "SA": {
         "01": "Ar Riyāḑ",
         "02": "Makkah al Mukarramah",
         "03": "Al Madīnah al Munawwarah",
@@ -4389,8 +4236,7 @@
         "12": "Al Jawf",
         "14": "'Asīr"
     },
-    "SB":
-    {
+    "SB": {
         "CE": "Central",
         "CH": "Choiseul",
         "CT": "Capital Territory",
@@ -4402,8 +4248,7 @@
         "TE": "Temotu",
         "WE": "Western"
     },
-    "SC":
-    {
+    "SC": {
         "01": "Anse aux Pins",
         "02": "Anse Boileau",
         "03": "Anse Étoile",
@@ -4430,8 +4275,7 @@
         "24": "Les Mamelles",
         "25": "Ros Kaiman"
     },
-    "SD":
-    {
+    "SD": {
         "DC": "Central Darfur",
         "DE": "Sharq Dārfūr",
         "DN": "Shamāl Dārfūr",
@@ -4450,8 +4294,7 @@
         "RS": "Red Sea",
         "SI": "Sennar"
     },
-    "SE":
-    {
+    "SE": {
         "AB": "Stockholms län",
         "AC": "Västerbottens län",
         "BD": "Norrbottens län",
@@ -4474,22 +4317,19 @@
         "Y": "Västernorrlands län",
         "Z": "Jämtlands län"
     },
-    "SG":
-    {
+    "SG": {
         "01": "Central Singapore",
         "02": "North East",
         "03": "North West",
         "04": "South East",
         "05": "South West"
     },
-    "SH":
-    {
+    "SH": {
         "AC": "Ascension",
         "HL": "Saint Helena",
         "TA": "Tristan da Cunha"
     },
-    "SI":
-    {
+    "SI": {
         "001": "Ajdovščina",
         "002": "Beltinci",
         "003": "Bled",
@@ -4702,8 +4542,7 @@
         "211": "Šentrupert",
         "212": "Mirna"
     },
-    "SK":
-    {
+    "SK": {
         "BC": "Banskobystrický kraj",
         "BL": "Bratislavský kraj",
         "KI": "Košický kraj",
@@ -4713,15 +4552,13 @@
         "TC": "Trenčiansky kraj",
         "ZI": "Žilinský kraj"
     },
-    "SL":
-    {
+    "SL": {
         "E": "Eastern",
         "N": "Northern",
         "S": "Southern",
         "W": "Western Area"
     },
-    "SM":
-    {
+    "SM": {
         "01": "Acquaviva",
         "02": "Chiesanuova",
         "03": "Domagnano",
@@ -4732,8 +4569,7 @@
         "08": "Montegiardino",
         "09": "Serravalle"
     },
-    "SN":
-    {
+    "SN": {
         "DB": "Diourbel",
         "DK": "Dakar",
         "FK": "Fatick",
@@ -4749,8 +4585,7 @@
         "TH": "Thiès",
         "ZG": "Ziguinchor"
     },
-    "SO":
-    {
+    "SO": {
         "AW": "Awdal",
         "BK": "Bakool",
         "BN": "Banaadir",
@@ -4770,8 +4605,7 @@
         "TO": "Togdheer",
         "WO": "Woqooyi Galbeed"
     },
-    "SR":
-    {
+    "SR": {
         "BR": "Brokopondo",
         "CM": "Commewijne",
         "CR": "Coronie",
@@ -4783,8 +4617,7 @@
         "SI": "Sipaliwini",
         "WA": "Wanica"
     },
-    "SS":
-    {
+    "SS": {
         "BN": "Northern Bahr el Ghazal",
         "BW": "Western Bahr el  Ghazal",
         "EC": "Central Equatoria",
@@ -4796,13 +4629,11 @@
         "UY": "Unity",
         "WR": "Warrap"
     },
-    "ST":
-    {
+    "ST": {
         "P": "Príncipe",
         "S": "São Tomé"
     },
-    "SV":
-    {
+    "SV": {
         "AH": "Ahuachapán",
         "CA": "Cabañas",
         "CH": "Chalatenango",
@@ -4818,8 +4649,7 @@
         "UN": "La Unión",
         "US": "Usulután"
     },
-    "SY":
-    {
+    "SY": {
         "DI": "Dimashq",
         "DR": "Dar'ā",
         "DY": "Dayr az Zawr",
@@ -4835,15 +4665,13 @@
         "SU": "As Suwaydā'",
         "TA": "Ţarţūs"
     },
-    "SZ":
-    {
+    "SZ": {
         "HH": "Hhohho",
         "LU": "Lubombo",
         "MA": "Manzini",
         "SH": "Shiselweni"
     },
-    "TD":
-    {
+    "TD": {
         "BA": "Al Baţḩah",
         "BG": "Bahr el Ghazal",
         "BO": "Borkou",
@@ -4868,16 +4696,14 @@
         "TI": "Tibesti",
         "WF": "Wādī Fīrā"
     },
-    "TG":
-    {
+    "TG": {
         "C": "Centre",
         "K": "Kara",
         "M": "Maritime",
         "P": "Plateaux",
         "S": "Savannes"
     },
-    "TH":
-    {
+    "TH": {
         "10": "Krung Thep Maha Nakhon",
         "11": "Samut Prakan",
         "12": "Nonthaburi",
@@ -4957,15 +4783,13 @@
         "96": "Narathiwat",
         "S": "Phatthaya"
     },
-    "TJ":
-    {
+    "TJ": {
         "DU": "Dushanbe",
         "GB": "Kŭhistoni Badakhshon",
         "KT": "Khatlon",
         "SU": "Sughd"
     },
-    "TL":
-    {
+    "TL": {
         "AL": "Aileu",
         "AN": "Ainaro",
         "BA": "Baukau",
@@ -4980,8 +4804,7 @@
         "OE": "Oecussi",
         "VI": "Vikeke"
     },
-    "TM":
-    {
+    "TM": {
         "A": "Ahal",
         "B": "Balkan",
         "D": "Daşoguz",
@@ -4989,8 +4812,7 @@
         "M": "Mary",
         "S": "Aşgabat"
     },
-    "TN":
-    {
+    "TN": {
         "11": "Tunis",
         "12": "Ariana",
         "13": "Ben Arous",
@@ -5016,16 +4838,14 @@
         "82": "Medenine",
         "83": "Tataouine"
     },
-    "TO":
-    {
+    "TO": {
         "01": "'Eua",
         "02": "Ha'apai",
         "03": "Niuas",
         "04": "Tongatapu",
         "05": "Vava'u"
     },
-    "TR":
-    {
+    "TR": {
         "01": "Adana",
         "02": "Adıyaman",
         "03": "Afyonkarahisar",
@@ -5108,8 +4928,7 @@
         "80": "Osmaniye",
         "81": "Düzce"
     },
-    "TT":
-    {
+    "TT": {
         "ARI": "Arima",
         "CHA": "Chaguanas",
         "CTT": "Couva-Tabaquite-Talparo",
@@ -5127,8 +4946,7 @@
         "TUP": "Tunapuna-Piarco",
         "WTO": "Western Tobago"
     },
-    "TV":
-    {
+    "TV": {
         "FUN": "Funafuti",
         "NIT": "Niutao",
         "NKF": "Nukufetau",
@@ -5138,8 +4956,7 @@
         "NUI": "Nui",
         "VAI": "Vaitupu"
     },
-    "TW":
-    {
+    "TW": {
         "CHA": "Changhua",
         "CYI": "Chiayi",
         "CYQ": "Chiayi",
@@ -5164,8 +4981,7 @@
         "TXQ": "Taichung",
         "YUN": "Yunlin"
     },
-    "TZ":
-    {
+    "TZ": {
         "01": "Arusha",
         "02": "Dar es Salaam",
         "03": "Dodoma",
@@ -5197,8 +5013,7 @@
         "29": "Njombe",
         "30": "Simiyu"
     },
-    "UA":
-    {
+    "UA": {
         "05": "Vinnytska oblast",
         "07": "Volynska oblast",
         "09": "Luhanska oblast",
@@ -5227,8 +5042,7 @@
         "74": "Chernihivska oblast",
         "77": "Chernivetska oblast"
     },
-    "UG":
-    {
+    "UG": {
         "101": "Kalangala",
         "102": "Kampala",
         "103": "Kiboga",
@@ -5346,8 +5160,7 @@
         "N": "Northern",
         "W": "Western"
     },
-    "UM":
-    {
+    "UM": {
         "67": "Johnston Atoll",
         "71": "Midway Islands",
         "76": "Navassa Island",
@@ -5358,8 +5171,7 @@
         "89": "Kingman Reef",
         "95": "Palmyra Atoll"
     },
-    "US":
-    {
+    "US": {
         "AA": "Armed Forces of the Americas",
         "AE": "Armed Forces of Europe",
         "AP": "Armed Forces of the Pacific",
@@ -5421,8 +5233,7 @@
         "WV": "West Virginia",
         "WY": "Wyoming"
     },
-    "UY":
-    {
+    "UY": {
         "AR": "Artigas",
         "CA": "Canelones",
         "CL": "Cerro Largo",
@@ -5443,8 +5254,7 @@
         "TA": "Tacuarembó",
         "TT": "Treinta y Tres"
     },
-    "UZ":
-    {
+    "UZ": {
         "AN": "Andijon",
         "BU": "Buxoro",
         "FA": "Farg‘ona",
@@ -5460,8 +5270,7 @@
         "TO": "Toshkent",
         "XO": "Xorazm"
     },
-    "VC":
-    {
+    "VC": {
         "01": "Charlotte",
         "02": "Saint Andrew",
         "03": "Saint David",
@@ -5469,8 +5278,7 @@
         "05": "Saint Patrick",
         "06": "Grenadines"
     },
-    "VE":
-    {
+    "VE": {
         "A": "Distrito Capital",
         "B": "Anzoátegui",
         "C": "Apure",
@@ -5497,8 +5305,7 @@
         "Y": "Delta Amacuro",
         "Z": "Amazonas"
     },
-    "VN":
-    {
+    "VN": {
         "01": "Lai Châu",
         "02": "Lào Cai",
         "03": "Hà Giang",
@@ -5563,8 +5370,7 @@
         "HP": "Hai Phong",
         "SG": "Ho Chi Minh"
     },
-    "VU":
-    {
+    "VU": {
         "MAP": "Malampa",
         "PAM": "Pénama",
         "SAM": "Sanma",
@@ -5572,8 +5378,7 @@
         "TAE": "Taféa",
         "TOB": "Torba"
     },
-    "WS":
-    {
+    "WS": {
         "AA": "A'ana",
         "AL": "Aiga-i-le-Tai",
         "AT": "Atua",
@@ -5586,8 +5391,7 @@
         "VF": "Va'a-o-Fonoti",
         "VS": "Vaisigano"
     },
-    "YE":
-    {
+    "YE": {
         "AB": "Abyān",
         "AD": "'Adan",
         "AM": "'Amrān",
@@ -5610,8 +5414,7 @@
         "SN": "Şanʻā'",
         "TA": "Tāʻizz"
     },
-    "ZA":
-    {
+    "ZA": {
         "EC": "Eastern Cape",
         "FS": "Free State",
         "GT": "Gauteng",
@@ -5622,8 +5425,7 @@
         "NW": "North West",
         "WC": "Western Cape"
     },
-    "ZM":
-    {
+    "ZM": {
         "01": "Western",
         "02": "Central",
         "03": "Eastern",
@@ -5635,8 +5437,7 @@
         "09": "Lusaka",
         "10": "Muchinga"
     },
-    "ZW":
-    {
+    "ZW": {
         "BU": "Bulawayo",
         "HA": "Harare",
         "MA": "Manicaland",
