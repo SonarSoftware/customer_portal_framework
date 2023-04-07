@@ -212,7 +212,13 @@ class HttpHelper
                 $messageArray = [];
                 foreach ($message as $key => $value)
                 {
-                    array_push($messageArray,$value);
+                    if (is_array($value)) {
+                        foreach ($value as $subValue) {
+                            $messageArray[] = $subValue;
+                        }
+                    } else {
+                        $messageArray[] = $value;
+                    }
                 }
                 return implode(", ",$messageArray);
             }
