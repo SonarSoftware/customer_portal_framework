@@ -28,7 +28,7 @@
     "vlucas/phpdotenv": "*",
     "guzzlehttp/guzzle": "6.*",
     "inacho/php-credit-card-validator": "^1.0",
-    "nesbot/carbon": "1.*"
+    "nesbot/carbon": "2.*"
   },
   "autoload": {
     "psr-4" : {
