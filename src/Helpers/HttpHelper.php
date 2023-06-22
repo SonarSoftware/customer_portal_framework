@@ -20,9 +20,9 @@ class HttpHelper
         $this->guzzle = new Client();
         //This is to maintain backwards compatibility with the old file location.
         if (file_exists(__DIR__ . '/../../../../../.env')) {
-            $dotenv = new Dotenv(__DIR__ . '/../../../../../');
+            $dotenv = Dotenv::createImmutable(__DIR__ . '/../../../../../');
         } else if (file_exists(__DIR__ . '/../.env')) {
-            $dotenv = new Dotenv(__DIR__ . '/../');
+            $dotenv = Dotenv::createImmutable(__DIR__ . '/../');
         } else {
             //Just skip loading if no .env is present.
             return;

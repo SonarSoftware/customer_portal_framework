@@ -16,10 +16,10 @@ class Contract
     public function __construct(array $values)
     {
         if (file_exists(__DIR__ . '/../../../../../.env')) {
-            $dotenv = new Dotenv(__DIR__ . '/../../../../../');
+            $dotenv = Dotenv::createImmutable(__DIR__ . '/../../../../../');
             $this->loadDotEnv($dotenv);
         } else if (file_exists(__DIR__ . '/../.env')) {
-            $dotenv = new Dotenv(__DIR__ . '/../');
+            $dotenv = Dotenv::createImmutable(__DIR__ . '/../');
             $this->loadDotEnv($dotenv);
         }
 
