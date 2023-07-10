@@ -281,3 +281,12 @@ function subdivisions($country)
 
     return $cleaned;
 }
+
+function strip_non_numeric($string): string
+{
+    if ($string === null) {
+        return '';
+    }
+
+    return preg_replace("/[^0-9]/", "", $string);
+}

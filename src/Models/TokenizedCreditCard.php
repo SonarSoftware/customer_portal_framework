@@ -3,8 +3,8 @@
 
 namespace SonarSoftware\CustomerPortalFramework\Models;
 
-use Inacho\CreditCard as CreditCardValidator;
 use InvalidArgumentException;
+use SonarSoftware\CustomerPortalFramework\Helpers\CreditCardValidator;
 
 class TokenizedCreditCard
 {
@@ -197,13 +197,9 @@ class TokenizedCreditCard
             throw new InvalidArgumentException("You must supply a name.");
         }
 
-        $month = sprintf("%02d", $values['expiration_month']);
-        if (strlen($values['expiration_year']) !== 4) {
-            throw new InvalidArgumentException("You must input a 4 digit year.");
-        }
-
-        if (!CreditCardValidator::validDate($values['expiration_year'], $month)) {
-            throw new InvalidArgumentException("Expiration date is not valid.");
+        $expirationValidation = CreditCardValidator::validDate($values['expiration_year'], $values['expiration_month']);
+        if (!$expirationValidation['valid']) {
+            throw new InvalidArgumentException($expirationValidation['message']);
         }
 
         if (!isset(countries()[$values['country']])) {

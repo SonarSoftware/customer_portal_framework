@@ -4,6 +4,7 @@ namespace SonarSoftware\CustomerPortalFramework\Controllers;
 
 use Exception;
 use SonarSoftware\CustomerPortalFramework\Exceptions\ApiException;
+use SonarSoftware\CustomerPortalFramework\Helpers\CreditCardValidator;
 use SonarSoftware\CustomerPortalFramework\Helpers\HttpHelper;
 use SonarSoftware\CustomerPortalFramework\Models\BankAccount;
 use SonarSoftware\CustomerPortalFramework\Models\CreditCard;
@@ -107,24 +108,23 @@ class AccountBillingController
     {
         $return = [];
         $result = $this->httpHelper->get("accounts/" . intval($accountID) . "/payment_methods");
-        foreach ($result as $datum)
-        {
-            if ($datum->type != "credit card")
-            {
+        foreach ($result as $datum) {
+            if ($datum->type != "credit card") {
                 continue;
             }
             try {
-                if (\Inacho\CreditCard::validDate($datum->expiration_year, sprintf("%02d", $datum->expiration_month)) !== true)
-                {
+                $expirationValidation = CreditCardValidator::validDate(
+                    $datum->expiration_year,
+                    $datum->expiration_month
+                );
+                if (!$expirationValidation['valid']) {
                     continue;
                 }
-            }
-            catch (Exception $e)
-            {
+            } catch (Exception $e) {
                 continue;
             }
 
-            array_push($return,$datum);
+            $return[] = $datum;
         }
         return $return;
     }
@@ -140,23 +140,22 @@ class AccountBillingController
     {
         $return = [];
         $result = $this->httpHelper->get("accounts/" . intval($accountID) . "/payment_methods");
-        foreach ($result as $datum)
-        {
-            if ($datum->type == "credit card")
-            {
+        foreach ($result as $datum) {
+            if ($datum->type == "credit card") {
                 try {
-                    if (\Inacho\CreditCard::validDate($datum->expiration_year, sprintf("%02d", $datum->expiration_month)) !== true)
-                    {
+                    $expirationValidation = CreditCardValidator::validDate(
+                        $datum->expiration_year,
+                        $datum->expiration_month
+                    );
+                    if (!$expirationValidation['valid']) {
                         continue;
                     }
-                }
-                catch (Exception $e)
-                {
+                } catch (Exception $e) {
                     continue;
                 }
             }
 
-            array_push($return,$datum);
+            $return[] = $datum;
         }
         return $return;
     }
